@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: #4caf50;
+    color: white;
+    padding: 40px 20px;
+}
+
+.jumbotron .btn {
+    margin-right: 10px;
+}

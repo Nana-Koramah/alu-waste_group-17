@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Smart Waste Management</h1>
+        <p class="lead">An innovative system to manage waste collection schedules, track recycling efforts, and view environmental impact metrics.</p>
+        <hr class="my-4">
+        <p>Register or log in to get started.</p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('routes.register') }}" role="button">Register</a>
+        <a class="btn btn-secondary btn-lg" href="{{ url_for('routes.login') }}" role="button">Login</a>
+    </div>
+{% endblock %}
